@@ -12,7 +12,7 @@ This project is a Next.js starter with Docker Compose for local development.
 To start the project locally, run the following command:
 
 ```bash
-docker-compose up
+docker compose up
 ```
 
 The application will then be available at http://localhost:3000.
