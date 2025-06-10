@@ -7,21 +7,21 @@ export default function Docs() {
         <div className="bg-white dark:bg-gray-800 rounded-lg shadow-md p-6 mb-8">
           <h2 className="text-2xl font-semibold mb-4">Docker Commands</h2>
           <div className="bg-gray-100 dark:bg-gray-900 p-4 rounded-md mb-6">
-            <p className="font-mono">docker-compose up -d</p>
+            <p className="font-mono">docker compose up -d</p>
             <p className="text-sm text-gray-600 dark:text-gray-400 mt-2">
               Starts the container in the background
             </p>
           </div>
 
           <div className="bg-gray-100 dark:bg-gray-900 p-4 rounded-md mb-6">
-            <p className="font-mono">docker-compose down</p>
+            <p className="font-mono">docker compose down</p>
             <p className="text-sm text-gray-600 dark:text-gray-400 mt-2">
               Stops and removes the container
             </p>
           </div>
 
           <div className="bg-gray-100 dark:bg-gray-900 p-4 rounded-md mb-6">
-            <p className="font-mono">docker-compose logs -f</p>
+            <p className="font-mono">docker compose logs -f</p>
             <p className="text-sm text-gray-600 dark:text-gray-400 mt-2">
               Shows the container logs
             </p>
