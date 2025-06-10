@@ -7,7 +7,7 @@ This project is a Next.js starter with Docker Compose for local development.
 - [Prerequisites](#prerequisites)
 - [Development](#development)
   - [Hot Reload](#hot-reload)
-  - [Working Inside the running container](#working-inside-the-running-container)
+  - [Working inside the running container](#working-inside-the-running-container)
   - [Permanent package installation with mounted volumes](#permanent-package-installation-with-mounted-volumes)
 - [Production](#production)
 - [Project Structure](#project-structure)
@@ -31,7 +31,7 @@ The application will then be available at http://localhost:3000.
 
 The application supports hot reload, so any code changes will be reflected immediately.
 
-### Working Inside the running container
+### Working inside the running container
 
 If you want to access the running container and install npm packages (for testing or debugging), follow these steps:
 
